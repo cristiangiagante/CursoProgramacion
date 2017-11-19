@@ -108,8 +108,9 @@
     <Content Include="Views\Inicio\CrearClase.cshtml" />
     <Content Include="Views\Inicio\Create.cshtml" />
     <Content Include="Views\Inicio\Index.cshtml" />
-    <Content Include="Views\Inicio\Edit.cshtml" />
+    <Content Include="Views\Inicio\EditClase.cshtml" />
     <None Include="Properties\PublishProfiles\clasesdeprogramacion - Web Deploy.pubxml" />
+    <Content Include="Views\Inicio\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

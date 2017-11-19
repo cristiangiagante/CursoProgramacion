@@ -29,10 +29,15 @@ namespace CursoDeProgramacion.Controllers
         }
 
         [HttpGet]
-        public ActionResult Edit(int id)
+        public ActionResult Edit(int id, string passPhrase)
         {
-            var model = ObtenerJsonDB();
-            return View(model.ListaClases[id]);
+            if (passPhrase == "unaclave")
+            {
+                var model = ObtenerJsonDB();
+                return View("EditClase", model.ListaClases[id]);
+            }
+            return View();
+            
         }
 
         [HttpPost]
