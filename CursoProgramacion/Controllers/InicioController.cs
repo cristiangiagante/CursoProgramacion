@@ -31,7 +31,7 @@ namespace CursoDeProgramacion.Controllers
         [HttpGet]
         public ActionResult Edit(int id, string passPhrase)
         {
-            if (passPhrase == "unaclave")
+            if (passPhrase == "unaclavenueva")
             {
                 var model = ObtenerJsonDB();
                 return View("EditClase", model.ListaClases[id]);
@@ -51,7 +51,7 @@ namespace CursoDeProgramacion.Controllers
 
         public ActionResult Create(string passPhrase)
         {
-            if (passPhrase == "unaclave")
+            if (passPhrase == "unaclavenueva")
             {
                 return View("CrearClase");
             }

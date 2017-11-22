@@ -103,7 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="jsonDb\bd.json" />
     <None Include="packages.config" />
     <Content Include="Views\Inicio\CrearClase.cshtml" />
     <Content Include="Views\Inicio\Create.cshtml" />
@@ -120,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="jsonDb\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
